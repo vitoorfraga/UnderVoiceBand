@@ -1,0 +1,147 @@
+.section-membros {
+  margin-top: 8rem;
+}
+
+.membros-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.membro-button {
+  width: 11.1rem;
+  height: 11.1rem;
+  clip-path: circle(50% at 50% 50%);
+  margin: 2rem;
+  border-radius: 50%;
+}
+
+.membro-button img {
+  transition: 0.4s ease-out;
+  width: 100%;
+}
+.membro-button img:hover {
+  opacity: 0.3;
+}
+
+// MODAL PADRÃO
+
+.modal-default {
+  width: 100%;
+  height: 40rem;
+  margin-top: 4rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(36, 36, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(36, 36, 36, 1) 13%,
+    rgba(0, 0, 0, 0) 100%
+  );
+
+  font-family: var(--font1);
+  font-size: 5.8rem;
+  text-align: center;
+}
+
+.modal-default h3 {
+  max-width: 60rem;
+}
+
+.modal-default span:nth-child(1) {
+  color: var(--orange);
+}
+
+.arrow-up {
+  margin: 0rem 0 5rem 0;
+}
+.arrow-up img {
+  transition: 0.4s ease;
+}
+
+.arrow-up img:hover {
+  opacity: 0.3;
+}
+
+// MODAL - MEMBROS
+
+.modal-membro {
+  margin-top: 10rem;
+  width: 100%;
+  // ATIVAR AQUI QUANDO TERMINAR DE PERSONALIZAR AS MODAIS
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.modal-container {
+  width: 100%;
+  height: 40.3rem;
+  background-color: black;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  // align-items: center;
+}
+
+.modal-foto {
+  max-width: 25rem;
+  height: 54.2rem;
+  background-image: url(../../assets/modal-4.png);
+  background-position: center;
+}
+
+.modal-context {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.modal-context h4 {
+  font-family: var(--font1);
+  font-size: 5.8rem;
+  text-align: center;
+}
+.modal-context h4 span {
+  color: var(--orange);
+}
+
+.modal-context p {
+  font-family: var(--font2);
+  font-size: 2.1rem;
+  color: var(--gray);
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.modal-icons {
+  margin-top: 4rem;
+}
+.modal-icons img {
+  padding: 3rem;
+}
+
+.orange-bar {
+  width: 25.3rem;
+  height: 0.5rem;
+
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(219, 120, 89, 1) 100%
+  );
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+html{
+  --orange: #DB7859;
+  --body-color: #0C0C0C;
+  --white: #FFFF;
+  --gray: #8C8C8C;
+  --gray-light: #C4C4C4;
+  --degrade: background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+
+  --font1: 'Staatliches', cursive;
+  --font2: 'Roboto', sans-serif;
+
+  font-size: 62.5%;
+}                                                                                              
+

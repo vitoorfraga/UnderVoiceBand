@@ -1,0 +1,75 @@
+.section-contato {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.section-contato h4 {
+  font-family: var(--font1);
+  font-size: 5.8rem;
+  text-align: center;
+}
+
+.redes-sociais {
+  padding: 1rem;
+}
+
+.contato-box {
+  width: 28.8rem;
+  height: 6.9rem;
+  margin-top: 2rem;
+  background-color: #2c2c2c;
+}
+
+.redes-sociais .contato-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook a {
+  padding: 1rem 7rem;
+}
+
+.instagram a {
+  padding: 1rem 7rem;
+}
+
+.youtube a {
+  padding: 1rem 7rem;
+}
+
+.dados {
+  padding: 1rem;
+}
+
+// .dados h4 {
+//   font-size: 5.8rem;
+//   font-family: var(--font1);
+//   text-align: center;
+// }
+
+.dados .contato-box {
+  display: flex;
+  align-items: center;
+
+  font-family: var(--font1);
+  font-size: 1.7rem;
+}
+
+.contato-box .dados-icon {
+  margin: 0 1.6rem 0 2rem;
+}
+
+.telefone a {
+  margin-left: 4rem;
+}
+
+// .dados .contato-box a {
+//   background-color: blue;
+// }
+
+.dados .call-to-actions {
+  margin-left: 15rem;
+}

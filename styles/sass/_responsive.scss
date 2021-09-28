@@ -1,0 +1,113 @@
+// Responsididade: Titulo - Intro
+@media (max-width: 600px) {
+  .header-titles h1 {
+    font-size: 8rem;
+  }
+}
+// Responsididade: Titulo (Espaçamento) - Intro
+@media (max-width: 1000px) {
+  .header-titles {
+    padding-top: 0;
+  }
+
+  .header-bg {
+    // background-image: url(../../assets/bg-header-mobile.jpg);
+    background-position: top center;
+    height: auto;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .header {
+    max-width: 112.8rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 756px) {
+  .eventos-img-column .eventos-img-size {
+    padding: 0.4rem;
+  }
+}
+
+// Responsividade modal:
+@media (max-width: 576px) {
+  .modal-membro {
+    margin-top: 5rem;
+    width: 100%;
+    // ATIVAR AQUI QUANDO TERMINAR DE PERSONALIZAR AS MODAIS
+    position: absolute;
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .modal-container {
+    width: 100%;
+    height: 85rem;
+    background-color: black;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    // align-items: center;
+  }
+
+  .modal-foto {
+    width: 29.5rem;
+    height: 40rem;
+    overflow: hidden;
+    margin-top: 0;
+  }
+
+  .modal-context {
+    width: 90%;
+  }
+
+  .modal-context h4 {
+    margin-bottom: 2rem;
+    font-family: var(--font1);
+    font-size: 5.8rem;
+    text-align: center;
+    line-height: 5rem;
+  }
+
+  .modal-context h4 span {
+    color: var(--orange);
+  }
+
+  .modal-context p {
+    font-family: var(--font2);
+    font-size: 2.1rem;
+    color: var(--gray);
+    text-align: center;
+    max-width: 60.6rem;
+  }
+
+  .modal-icons {
+    margin-top: 4rem;
+  }
+  .modal-icons img {
+    padding: 1.5rem;
+  }
+}
+.fechar-modal {
+  display: none;
+}
+
+// MOBILE
+// @media (max-width: 696px) {
+//   // .footer-bg {
+//   //   justify-content: center;
+//   // }
+
+//   .footer-redes {
+//     margin-left: 1rem;
+//     margin-top: 1rem;
+//   }
+// }

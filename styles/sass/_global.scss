@@ -1,0 +1,112 @@
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Staatliches', cursive;
+
+body {
+  background-color: var(--body-color);
+  color: var(--white);
+}
+
+.gradient {
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* a cor do texto deve estar como transparent */
+  color: transparent;
+}
+
+.gradient-orange {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(219, 120, 89, 1) 100%
+  );
+}
+
+.container {
+  max-width: 113.8rem;
+  margin: 0 auto;
+  // background-color: turquoise;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+}
+
+.mostrar-modal {
+  display: none;
+}
+
+// FOOTER
+footer {
+  margin-top: 7rem;
+  width: 100%;
+  background-color: #242424;
+}
+
+.footer-bg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2.5rem 0;
+}
+
+.footer-bg h6 {
+  font-family: var(--font1);
+  font-size: 2.4rem;
+}
+
+.footer-redes {
+  margin: 1rem 1rem;
+}
+
+.footer-redes-sociais {
+  margin-top: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-redes-sociais .footer-facebook,
+.footer-instagram,
+.footer-youtube {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+  height: 7rem;
+  background-color: black;
+}
+
+.footer-instagram {
+  margin: 1rem;
+}
+.footer-sobre {
+  margin-left: 1rem;
+}
+
+.footer-sobre p {
+  margin-top: 1.7rem;
+  font-family: var(--font2);
+  font-size: 2.1rem;
+  line-height: 2.4rem;
+  color: #8c8c8c;
+  max-width: 47.9rem;
+}
+
+.desenvolvido {
+  background-color: #1d1d1d;
+  height: 6.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: var(--font1);
+  color: var(--white);
+  font-size: 2.1rem;
+}
+
+.desenvolvido a {
+  color: var(--orange);
+  text-decoration: underline;
+}
