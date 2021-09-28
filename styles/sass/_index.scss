@@ -41,8 +41,10 @@
 }
 
 .header-titles {
-  max-width: 45rem;
+  max-width: 25rem;
+  background-color: azure;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .header-titles img {
